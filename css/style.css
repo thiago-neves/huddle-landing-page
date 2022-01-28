@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+	background-color: hsl(257, 40%, 49%);
+	background-image: url("../images/bg-desktop.svg");
+	background-size: cover;
+	min-height: 100vh;
+	color: white;
+	display: flex;
+	font-size: 1.3em;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	margin-bottom: 50px;
+}
+
+.heading {
+	font-family: 'Poppins', sans-serif;
+}
+
+.paragraph {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+	display: flex;
+	column-gap: 50px;
+	flex-direction: row;
+}
+
+.card {
+	width: 600px;
+}
+
+.button {
+	background-color: white;
+	border: none;
+	padding: 15px 70px;
+	font-size: 1em;
+	cursor: pointer;
+	color: hsl(257, 40%, 49%);
+	border-radius: 40px;
+}
+
+.button:hover {
+	background-color: hsl(300, 69%, 71%);
+	color: white;
+}
+
+.icons {
+	text-align: right;
+}
+
+.fab {
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 100%;
+	width: 50px;
+	padding: 15px 0;
+	text-align: center;
+	font: 1em;
+}
+
+.fab:hover {
+	border: 1px solid hsl(300, 69%, 71%);
+	color: hsl(300, 69%, 71%);
+}
